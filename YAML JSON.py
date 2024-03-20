@@ -1,6 +1,6 @@
 import yaml
-with open('network_config.yml','r')as file:
-    network_config=yaml.safe_load(file)
+with open('network_config.yml','r')as helenka:
+    network_config=yaml.safe_load(helenka)
 print(network_config)
 
 import json
